@@ -38,16 +38,20 @@ public class CalculatorUsingSwitchCase {
             case '+':
                 result = num1 + num2;
                 break;
+
             case '-':
                 result = num1 - num2;
                 break;
+
             case '.':
             case '*':
                 result = num1 * num2;
                 break;
+
             case'/':
                 result = num1 / num2;
                 break;
+
             case '%':
                 result = num1 % num2;
                 break;
