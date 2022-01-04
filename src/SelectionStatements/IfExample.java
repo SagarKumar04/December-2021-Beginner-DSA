@@ -2,10 +2,10 @@ package SelectionStatements;
 
 public class IfExample {
     public static void main(String[] args) {
-        int age = 12;
+        int num = -103;
 
-        if(age >= 18) {
-            System.out.println("You are eligible for a DL.");
+        if(num >= 0) {
+            System.out.println("Positive Number");
         }
     }
 }

@@ -3,20 +3,23 @@ package SelectionStatements;
 //1. Importing the Scanner class
 import java.util.Scanner;
 
-public class IfElseExample {
+public class IfElseIfExample {
     public static void main(String[] args) {
         //2. Creating an object of Scanner class
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter a number: ");
         //3. Use appropriate functions of Scanner class
-        int num = scanner.nextInt();
+        float num = scanner.nextFloat();
 
-        if(num >= 0) {
+        if(num > 0) {
             System.out.println("Positive Number");
         }
-        else {
+        else if(num < 0) {
             System.out.println("Negative Number");
+        }
+        else {
+            System.out.println("Zero");
         }
     }
 }

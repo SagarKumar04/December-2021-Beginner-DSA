@@ -1,30 +1,35 @@
 package SelectionStatements;
 
+//1. Importing the Scanner class
+import java.util.Scanner;
+
 public class NestedIfExample {
     public static void main(String[] args) {
-        int year = 2100;
+        //2. Creating an object of Scanner class
+        Scanner scanner = new Scanner(System.in);
 
-        if(year % 100 == 0) {
-            //century year
-            if(year % 400 == 0) {
-                //leap year
-                System.out.println("Leap year");
+        System.out.println("Please enter a number: ");
+        //3. Use appropriate functions of Scanner class
+        int num = scanner.nextInt();
+
+        if(num > 0) {
+            if(num % 2 == 0) {
+                System.out.println("Even Positive Number");
             }
             else {
-                //non-leap year
-                System.out.println("Non-leap year");
+                System.out.println("Odd Positive Number");
+            }
+        }
+        else if(num < 0) {
+            if(num % 2 == 0) {
+                System.out.println("Even Negative Number");
+            }
+            else {
+                System.out.println("Odd Negative Number");
             }
         }
         else {
-            //non-century year
-            if(year % 4 == 0) {
-                //leap year
-                System.out.println("Leap year");
-            }
-            else {
-                //non-leap year
-                System.out.println("Non-leap year");
-            }
+            System.out.println("Zero");
         }
     }
 }
