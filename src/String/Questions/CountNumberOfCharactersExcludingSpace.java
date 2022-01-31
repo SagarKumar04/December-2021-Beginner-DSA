@@ -1,4 +1,4 @@
-package String.Basics;
+package String.Questions;
 
 public class CountNumberOfCharactersExcludingSpace {
     static void method3(String s) {
