@@ -47,7 +47,7 @@ class F extends E {
     }
 }
 
-public class InheritanceExample3 {
+public class SuperKeywordExample1 {
     public static void main(String[] args) {
         E e = new E(10, 20, 30, 40);
         e.displayE();
