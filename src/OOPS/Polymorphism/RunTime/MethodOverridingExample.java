@@ -18,18 +18,5 @@ public class MethodOverridingExample {
     public static void main(String[] args) {
         B b = new B();
         b.test();
-
-        /*
-        We can assign object of child class to reference of parent
-        class
-         */
-        A a = new B();
-        a.test();
-
-        /*
-        We cannot assign object of parent class to reference of
-        child class
-        B b1 = new A();
-         */
     }
 }
