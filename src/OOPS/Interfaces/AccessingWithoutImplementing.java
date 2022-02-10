@@ -9,7 +9,7 @@ interface K {
         System.out.println("In display()");
     }
 
-    static void print() {
+    public static void print() {
         System.out.println("In print()");
     }
 }
