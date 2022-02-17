@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.AssignmentQuestions;
 
 public class DeleteMiddleElementInLinkedList {
     class Node {
