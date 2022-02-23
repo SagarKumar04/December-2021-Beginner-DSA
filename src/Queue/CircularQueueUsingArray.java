@@ -1,7 +1,5 @@
 package Queue;
 
-import OOPS.AccessControl.Question.Package2.C;
-
 public class CircularQueueUsingArray {
     int front;
     int rear;
@@ -74,12 +72,21 @@ public class CircularQueueUsingArray {
             front = -1;
             rear = -1;
         }
+        //'front' is at the last index
         else if(front == size - 1) {
             front = 0;
         }
+        //'front' is at some other index
         else {
             front = front + 1;
         }
+
+        /*
+        the above two conditions can be combined into one
+        by using the below expression for calculating the value
+        of 'front':
+        front = (front + 1) % size;
+         */
     }
 
     public static void main(String[] args) {
