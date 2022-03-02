@@ -1,4 +1,4 @@
-package Arrays.OneD;
+package Array.OneD;
 
 public class OneDArrayExample1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Arrays.NSAssignment;
+package Array.NSAssignment;
 
 import java.util.Scanner;
 

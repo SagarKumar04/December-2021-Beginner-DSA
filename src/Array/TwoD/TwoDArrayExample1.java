@@ -1,4 +1,4 @@
-package Arrays.TwoD;
+package Array.TwoD;
 
 public class TwoDArrayExample1 {
     public static void main(String[] args) {
