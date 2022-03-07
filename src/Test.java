@@ -1,7 +1,9 @@
 public class Test {
     public static void main(String[] args) {
-        Double dobj1 = new Double('4');
+        float pi = 1234.1415926f;
 
-        System.out.println(dobj1);
+        String piString = String.format("pi: %.3f", pi);
+
+        System.out.println(piString);
     }
 }
