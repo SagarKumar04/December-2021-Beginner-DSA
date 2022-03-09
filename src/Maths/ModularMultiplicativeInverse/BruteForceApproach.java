@@ -1,6 +1,6 @@
-package Maths;
+package Maths.ModularMultiplicativeInverse;
 
-public class ModularMultiplicativeInverse {
+public class BruteForceApproach {
     private static int findModularMultiplicativeInverse(int a, int m) {
         for(int i = 1; i < m; i++) {
             if((a * i) % m == 1) {
