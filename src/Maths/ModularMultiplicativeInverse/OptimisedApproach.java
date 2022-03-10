@@ -24,6 +24,10 @@ public class OptimisedApproach {
             x = temp;
         }
 
+        if(x < 0) {
+            x = x + originalM;
+        }
+
         return x;
     }
 
